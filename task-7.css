@@ -1,0 +1,149 @@
+body {
+    width: 70%;
+    margin: 40px auto;
+    font-family: serif;
+}
+
+.container {
+    /*border: 1px solid black;*/
+    width: 1300px;
+    height: 800px;
+}
+
+.header {
+    /*border: 1px solid green;*/
+    border-bottom: 5px solid dodgerblue;
+    width: 1278px;
+    height: 70px;
+    margin: 10px;
+    position: relative;
+}
+
+.logo {
+    order: 1px solid red;
+    width: 230px;
+    height: 64px;
+    position: absolute;
+    left: 970px;
+}
+
+.welcome {
+    /*border: 1px solid blue;*/
+    width: 1278px;
+    height: 310px;
+    margin: 10px auto;
+}
+
+.welcomephoto {
+    /*border: 1px solid red;*/
+    width: 220px;
+    height: 250px;
+    margin-right: 20px;
+    padding-top: 5px;
+    display: inline-block;
+}
+
+.welcomephotosize {
+    width: 220px;
+    height: 250px;
+}
+
+.welcometext {
+    /*border: 1px solid green;*/
+    width: 1030px;
+    height: 250px;
+    font-size: 26px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+p {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.content {
+    /*border: 1px solid black;*/
+    width: 1278px;
+    height: 320px;
+    margin: 10px;
+}
+
+.contentbox {
+    border: 1px solid cadetblue;
+    border-radius: 20px;
+    width: 390px;
+    height: 290px;
+    margin-right: 10px;
+    padding: 0 10px;
+    line-height: 1.35;
+    vertical-align: top;
+    display: inline-block;
+}
+
+/*.contentbox3 {
+    border: 1px solid cadetblue;
+    border-radius: 20px;
+    width: 389px;
+    height: 290px;
+    margin-right: 0;
+    padding: 0 10px;
+    line-height: 1.35;
+    vertical-align: top;
+    display: inline-block;
+}*/
+
+.footer {
+    /*border: 1px solid black;*/
+    width: 1278px;
+    height: 20px;
+    margin: 10px;
+    background-color: dodgerblue;
+    font-size: 16px;
+    position: relative;
+}
+
+a:link {
+    color: white;
+}
+
+.botnav {
+    width: 1100px;
+    background-color: dodgerblue;
+    display: inline-block;
+}
+
+.botnav .a1 {
+    border-right: 1px solid black;
+    width: 50px;
+    text-align: left;
+    display: inline-block;
+}
+
+.botnav .a2 {
+    border-right: 1px solid black;
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+.botnav .a3 {
+    /*border-right: 1px solid black;*/
+    width: 60px;
+    text-align: center;
+    display: inline-block;
+}
+
+.botnav a:hover {
+    background-color: antiquewhite;
+    color: dodgerblue;
+}
+
+.copyright {
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    left: 1120px;
+    display: inline-block;
+}
