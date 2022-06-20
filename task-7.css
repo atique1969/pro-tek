@@ -28,7 +28,7 @@ body {
 }
 
 .welcome {
-    /*border: 1px solid blue;*/
+    border: 1px solid blue;
     width: 1278px;
     height: 310px;
     margin: 10px auto;
